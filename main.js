@@ -218,7 +218,6 @@ function opt1() {
             opt1elm.style.backgroundColor = "rgba(255, 26, 26, 0.699)";
 
             console.warn("Wrong!");
-            window.alert('Wrong!');
 
             tries = tries - 1;
             document.getElementById("atmpts").innerHTML = "Attempts : " + tries;
@@ -254,7 +253,6 @@ function opt2() {
             opt2elm.style.borderWidth = "1px";
 
             console.warn("Wrong!");
-            window.alert('Wrong!');
 
             tries = tries - 1;
             document.getElementById("atmpts").innerHTML = "Attempts : " + tries;
@@ -290,7 +288,6 @@ function opt3() {
             opt3elm.style.borderWidth = "1px";
 
             console.warn("Wrong!");
-            window.alert('Wrong!');
 
             tries = tries - 1;
             document.getElementById("atmpts").innerHTML = "Attempts : " + tries;
@@ -327,7 +324,6 @@ function opt4() {
             opt4elm.style.borderWidth = "1px";
 
             console.warn("Wrong!");
-            window.alert('Wrong!');
 
             tries = tries - 1;
             document.getElementById("atmpts").innerHTML = "Attempts : " + tries;
