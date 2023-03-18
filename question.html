@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quiz</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="backgrounds/background.jpg">
+    <h4 id="atmpts"> Attempts : </h4>
+    <h5 id="score"> Score :  </h5>
+    <div class="container">
+        <center>
+            <h2 class="heading heading2">Quiz GAME</h2>
+            <br><br>
+            <div id="main_div">
+                
+                <h1 id="question" class="question"></h1>
+                <br>
+                <hr class="line-qna">
+                    <button onclick="opt1()" class="button" id="option1"></button>
+                    <button onclick="opt2()" class="button" id="option2"></button>
+                <hr class="line-opt">
+                    <button onclick="opt3()" class="button" id="option3"></button>
+                    <button onclick="opt4()" class="button" id="option4"></button>
+                <br><br>
+                <button id="next" onclick="next()"> </button>
+            </div>
+        </center>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

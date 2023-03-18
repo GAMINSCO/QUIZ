@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500&display=swap');
+
+body {
+    font-family: 'Kavivanar', cursive;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.heading {
+    color: black;
+    font-family: 'Anybody', cursive !important;
+    font-size: 76px;
+    letter-spacing: 6px;
+    text-shadow: 6px 6px 10px #3a3a3a;
+}
+
+.heading2 {
+    margin: 0px 120px 0px 0px ;
+}
+
+#center_text {
+    font-size: 60px;
+    color: rgb(0, 0, 0) !important;
+    border: 1px dashed black;
+    border-radius: 100px;
+    height: 80px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.068) !important;
+    margin-top: 150px;
+}
+#center_text:hover {
+    background-color: rgba(0, 0, 0, 0.199) ;
+    border-style: double;
+    background-color: rgba(0, 0, 0, 0.185) !important;
+    
+}
+
+.question {
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 20px;
+    text-shadow: 6px 6px 30px #000000;
+    color: black;
+    background-color: rgba(245, 245, 220, 0);
+    margin: 0px 100px 0px 0px ;
+}
+
+.button {
+    color:black;
+    background-color:rgba(20, 23, 220, 0.493);
+    font-size: 34px;
+    font-weight: 600;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: dotted;
+    height: 60px;
+    width: 35%;
+    margin: 5px 30px 5px 30px ;
+    border-radius: 95px;
+    letter-spacing: 2px;
+}
+.button:hover {
+    background-color: rgba(50, 20, 220, 0.671);
+    border: 1px solid black;
+}
+
+.line-opt {
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 60%
+}
+
+.line-qna {
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 70%
+}
+
+#next {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 30%;
+    height: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgba(145, 145, 145, 0.589);
+}
+
+
+#atmpts {
+    float: left;
+    margin: 150px 0px 0px 20px;
+    width: 200px ;
+    margin-right: 40px ;
+    height: 40px;
+    font-size: 26px;
+    text-align: left;
+    font-weight: 600;
+}
+
+#score {
+    float: right;
+    margin: 150px 0px 0px 0px;
+    width: 150px ;
+    height: 40px;
+    font-size: 26px;
+    text-align: left;
+    font-weight: 600;
+
+}
